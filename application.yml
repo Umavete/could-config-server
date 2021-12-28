@@ -7,16 +7,16 @@ eureka:
       
       
       
-microservice:
-  customer-service:
-    endpoints:
-      endpoint:
-        uri: http://customer-service/customerms/customers
-  order-service:
-    endpoints:
-      endpoint:
-        uri: http://order-service/orderms/orders
-  product-service:
-    endpoints:
-      endpoint:
-        uri: http://product-service/productms/products
+# microservice:
+#   customer-service:
+#     endpoints:
+#       endpoint:
+#         uri: http://customer-service/customerms/customers
+#   order-service:
+#     endpoints:
+#       endpoint:
+#         uri: http://order-service/orderms/orders
+#   product-service:
+#     endpoints:
+#       endpoint:
+#         uri: http://product-service/productms/products
