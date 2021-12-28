@@ -8,6 +8,10 @@ eureka:
       
       
 microservice:
+  apigateway:
+    endpoints:
+      endpoint:
+        uri: http://localhost:8080
   customer-service:
     endpoints:
       endpoint:
